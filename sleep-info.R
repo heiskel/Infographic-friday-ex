@@ -1,3 +1,27 @@
+# -------------------------------------------------------
+# Project: Sleep infographic
+# Author: Ulrik H
+#
+# Description:
+# Comparing the effects of two sleep inducing drugs.
+#
+# Data:
+# Sleep dataset built in R.
+#
+# Arguments:
+# None - the script uses a built-in dataset.
+#
+# Requirements:
+# R and the tidyverse package
+#
+# Run from the repository root:
+# Rscript sleep-info.R
+#
+# Output:
+# sleep-info.PNG
+# -------------------------------------------------------
+
+
 library(tidyverse)
 
 sleep = datasets::sleep
